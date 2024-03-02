@@ -1,0 +1,38 @@
+.form
+{
+  display:grid;
+  gap:10px;
+  width:100%;
+  padding:0px;
+}
+.input
+{
+  padding:10px 5px;
+  font-weight:bold;
+  width:100%;
+  font-size:16px;
+  border:1px solid #ccc;
+}
+.input:focus
+{
+  outline:none;
+}
+.submitbtn
+{
+  font-weight:bold;
+  padding:10px;
+  font-size:18px;
+  color:white;
+  background:purple;
+  border:none;
+  border-radius:2px;
+  cursor:pointer;
+  /* border:2px solid purple; */
+  transition:all 0.3s ease-in-out;
+}
+.submitbtn:hover
+{
+   /* border-color:black; */
+   scale:0.9;
+   filter:drop-shadow(2px 2px 5px purple)
+}

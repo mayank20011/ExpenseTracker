@@ -1,0 +1,45 @@
+.ul {
+  padding: 5px 0px;
+  width: 100%;
+  list-style-type: none;
+  max-height: 180px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+.li {
+  width: 100%;
+  gap:20px;
+  display: flex;
+  padding: 10px 8px;
+  background: white;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  box-shadow: 1px 1px 3px #ccc;
+  animation: pop 0.5s linear;
+  animation-fill-mode: forwards;
+  overflow:auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+@keyframes pop {
+  0% {
+    scale: 0;
+  }
+  80% {
+    scale: 0.9;
+  }
+  90% {
+    scale: 0.8;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.ligreen{
+  border-right:6px solid green; 
+}
+.lired
+{
+  border-right:6px solid red;
+}
